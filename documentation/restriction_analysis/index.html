@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Bacterial transformation protocol - STARS 2022</title>
+  <title>Restriction enzyme analysis protocol - STARS 2022</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Bacterial transformation protocol";
-    var mkdocs_page_input_path = "documentation/bt_protocol.md";
+    var mkdocs_page_name = "Restriction enzyme analysis protocol";
+    var mkdocs_page_input_path = "documentation/restriction_analysis.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -105,11 +105,18 @@
           
 
 
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../bt_protocol/">Bacterial transformation protocol</a>
+  </li>
+        
+          
+
+
   
     
     <li class="navtree toctree-l2 page current">
       <a class="current" href="./">
-        Bacterial transformation protocol
+        Restriction enzyme analysis protocol
           <span class="toctree-expand"></span>
       </a>
     </li>
@@ -125,8 +132,8 @@
           
 
   <li class="toctree-l3 current with-children">
-    <a href="#bacterial-transformation">
-      Bacterial Transformation
+    <a href="#cutting-dna-with-restriction-enzymes">
+      Cutting DNA with restriction enzymes
       <span class="toctree-expand"></span>
     </a>
   </li>
@@ -162,13 +169,6 @@
 
   
         
-          
-
-
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../restriction_analysis/">Restriction enzyme analysis protocol</a>
-  </li>
-        
       </ul>
     </li>
     
@@ -198,7 +198,7 @@
         
       
     
-    <li>Bacterial transformation protocol</li>
+    <li>Restriction enzyme analysis protocol</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -208,96 +208,161 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="bacterial-transformation-protocol">Bacterial transformation protocol</h1>
-<h2 id="bacterial-transformation">Bacterial Transformation</h2>
-<p>This is a protocol outline for transformation of bacteria (i.e. inserting a DNA plasmid into the bacterial cell).
-Protocol</p>
+                <h1 id="restriction-enzyme-analysis-protocol">Restriction enzyme analysis protocol</h1>
+<h2 id="cutting-dna-with-restriction-enzymes">Cutting DNA with restriction enzymes</h2>
+<p>This is a protocol demonstrates how <a href="https://en.wikipedia.org/wiki/Restriction_enzyme">restriction enzymes</a> can selectively cut DNA.</p>
 <h3 id="materials">Materials</h3>
 <ul>
-<li>2, 15mL snap-cap media tubes</li>
-<li>CaCl2 solution</li>
-<li>pGFP plasmid (0.005μg/μl)</li>
-<li>LB and LB/amp petri dishes</li>
-<li>MM294 E.coli bacterial culture (on LB petri dish)</li>
-<li>Water bath (42 oC)</li>
-<li>LB liquid medium</li>
-<li>Ice</li>
+<li>Agarose (0.8%)</li>
+<li>Distilled water</li>
+<li>SYBER green DNA stain</li>
+<li>λDNA (0.1 μg/μl)</li>
+<li>Loading dye</li>
+<li>2xRestriction buffer</li>
+<li>Restriction enzymes</li>
+<li>EcoRI</li>
+<li>BamHI</li>
+<li>HindIII</li>
+<li>1xTris /Borate/EDTA (TBE) buffer</li>
 <li>Micropipettes/tips</li>
-<li>Sterile loops</li>
-<li>Sterile glass beads</li>
+<li>Centrifuge</li>
+<li>Water bath (37oC)</li>
 </ul>
 <hr />
 <h3 id="steps">Steps</h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Until step 10 all reagents should be kept as cold as possible on ice.</p>
-</div>
+<p><strong>Restriction Digest</strong></p>
 <ol>
 <li>
-<p>Label sterile 15mL tubes with your initials, and label one tube "+" and the other "-".</p>
+<p>Use a permanent marker to label four 1.5-ml tubes, in which restriction
+   reactions will be performed:</p>
+<ul>
+<li>B = BamHI</li>
+<li>E = EcoRI</li>
+<li>H = HindIII*</li>
+<li>— = no enzyme</li>
+</ul>
 </li>
 <li>
-<p>Add 250μl of CaCl2 to each tube; place both tubes on ice. Until step X, keep tubes on ice as much as possible</p>
+<p>Use the matrix below as a checklist while adding reagents to each reaction.
+   Read down each column, adding the same reagent to all appropriate tubes. Use a fresh tip for each reagent. Refer to detailed directions that follow.</p>
 </li>
-<li>
-<p>Using a sterile loop, transfer a clump (2-3 mm in diameter) of bacteria to the "+" and "-" tube. Avoid cross-contaminating tube contents.</p>
-</li>
-<li>
-<p>Use a pipette to breakup the bacterial clump and disperse in the CaCl2 solution in each of the 15mL tubes.</p>
-</li>
-<li>
-<p>To the "+" tube only, add 10μl of 0.005 μg/μl pGFP plasmid directly into the liquid. Tap the tube using your finger to mix.</p>
-</li>
-<li>
-<p>Incubate 15mL tubes on ice for ~ 15 minutes.</p>
-</li>
-<li>
-<p>During step 6 incubation, label 4 petri dishes (be sure to write on the edge of the plate):</p>
+</ol>
 <table>
 <thead>
 <tr>
-<th>Petri dish</th>
-<th>Label</th>
+<th>Tube</th>
+<th>λDNA</th>
+<th>Buffer</th>
+<th>BamHI</th>
+<th>EcoRI</th>
+<th>HindIII</th>
+<th>H2O</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>LB</td>
-<td>"+"</td>
+<td>B</td>
+<td>4μl</td>
+<td>5μl</td>
+<td>1μl</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>LB</td>
-<td>"-"</td>
+<td>E</td>
+<td>4μl</td>
+<td>5μl</td>
+<td></td>
+<td>1μl</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>LB/amp</td>
-<td>"+"</td>
+<td>H</td>
+<td>4μl</td>
+<td>5μl</td>
+<td></td>
+<td></td>
+<td>1μl</td>
+<td></td>
 </tr>
 <tr>
-<td>LB/amp</td>
-<td>"-"</td>
+<td>-</td>
+<td>4μl</td>
+<td>5μl</td>
+<td></td>
+<td></td>
+<td></td>
+<td>1μl</td>
 </tr>
 </tbody>
 </table>
+<ol start="3">
+<li>
+<p>Set the micropipette to 4μl and add λDNA to each tube.</p>
 </li>
 <li>
-<p>Add your initials to each plate and the date.</p>
+<p>Set the micropipette to 5μl and add buffer to each tube.</p>
 </li>
 <li>
-<p>After the ice incubation, keep the tubes on ice and bring them to the 42 oC water bath. Place the tubes into the warm water for 90 seconds, then immediately return the tube to the ice.</p>
+<p>Use fresh tips (change each time) to add 1μl of the appropriate enzyme
+(e.g. BamHI to the "B" tube).</p>
 </li>
 <li>
-<p>Add 250μl of LB medium to each tube, being careful not to cross-contaminate.</p>
+<p>Use a fresh tip to add 1μl of the water to the "-" tube</p>
 </li>
 <li>
-<p>Add 100μl of the "+" and "-" tube contents to the respective labeled petri dishes. Immediately after adding 100μl to the center of the agar plate, use sterile beads to spread the bacteria.</p>
+<p>Close the tube tops and gently mix (tapping using your finger); then centrifuge briefly to collect the reagents at the bottom of the tube.</p>
 </li>
 <li>
-<p>Store plates upside down at 37 oC overnight.</p>
+<p>Incubate the tubes on a 37oC water bath for at least 10 minutes.</p>
+</li>
+</ol>
+<p>* Your instructor may also use an unknown enzyme for one of the stated enzymes.</p>
+<p><strong>Set Up Electrophoresis</strong></p>
+<ol>
+<li>Seal the ends of the gel-casting tray, and insert well-forming comb. Place
+   the gel-casting tray out of the way on the lab bench so that agarose poured in next step can set undisturbed.</li>
+<li>Carefully pour enough agarose solution into the casting tray to fill to a
+   depth of about 5 mm. Gel should cover only about one-third the height of comb teeth. Use a pipette tip to move large bubbles or solid debris to the sides or end of tray while gel is still liquid.</li>
+<li>Gel will become cloudy as it solidifies (~10 minutes). Do not move or jar
+   casting tray while agarose is solidifying. Touch corner of agarose away from comb to test whether gel has solidified.</li>
+<li>When agarose has set, unseal ends of casting tray. Place tray on the
+   platform of the gel box so that comb is at negative black electrode (cathode).</li>
+<li>Fill box with TBE buffer, to a level that just covers entire surface of gel.</li>
+<li>Gently remove comb, taking care not to rip the wells.</li>
+<li>Make sure that the sample wells left by the comb are completely
+   submerged.</li>
+</ol>
+<p><strong>Load and run gels</strong></p>
+<ol>
+<li>
+<p>Add 1μl of loading dye to each restriction digest tube use a fresh tip each
+  time.</p>
+</li>
+<li>
+<p>Use a micropipette to add 10μl of the digest reaction + loading dye to the
+  gel. Load in the order "B, E, H, -".</p>
+</li>
+<li>
+<p>Add DNA ladder to the gel (typically 5μl).</p>
+</li>
+<li>
+<p>Ensure the gel is properly oriented in the gel tank (the wells should be
+   closest to the cathode/black end).</p>
+</li>
+<li>
+<p>Run the gel for 30 minutes at 150V. About 10 minutes after starting, ensure
+  the loading dye band is migrating towards the positive (red/anode) end of the tank.</p>
+</li>
+<li>
+<p>Once the gel run is complete, follow instructor instructions for visualizing
+  the gel under ultraviolet light.</p>
 </li>
 </ol>
 <h2 id="youtube-video">YouTube video</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jemSJSKXh4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9HYOxYkhXgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               
             </div>
           </div>
@@ -305,10 +370,8 @@ Protocol</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../restriction_analysis/" class="btn btn-neutral float-right" title="Restriction enzyme analysis protocol">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../measurement/" class="btn btn-neutral" title="Measurement and quantification"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../bt_protocol/" class="btn btn-neutral" title="Bacterial transformation protocol"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -334,10 +397,8 @@ Protocol</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../measurement/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../bt_protocol/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../restriction_analysis/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
